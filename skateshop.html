@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Skateshop</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./assets/pdf/EmilyMan-Resume.pdf" class="header__link">
+                Resume
+              </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./assets/pdf/EmilyMan-Resume.pdf" class="header__link">
+                Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Skateshop</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            A Full Stack E-Commerce Application with Spring Boot in the Backend and React in the Frontend.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://d2equ9s1jv2wn9.cloudfront.net" class="btn btn--med" target="_blank">Live Link</a>
+          <a href="https://github.com/emilymansw/skateshop" class="btn btn--med" target="_blank">Code Link</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/png/skateshop_homepage.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Spring Boot</div>
+                <div class="skills__skill">Hibernate</div>
+                <div class="skills__skill">Typescript</div>
+                <div class="skills__skill">React</div>
+                <div class="skills__skill">Redux</div>
+                <div class="skills__skill">React Router</div>
+                <div class="skills__skill">Styled-component</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Firebase </div>
+                <div class="skills__skill">Cloudinary</div>
+                <div class="skills__skill">Stripe</div>
+                <div class="skills__skill">Amazon EC2</div>
+                <div class="skills__skill">Amazon RDS</div>
+                <div class="skills__skill">Amazon S3</div>
+              </div>
+            </div>
+            
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Full Stack E-Commerce Application with Admin Panel built with React, Spring Boot. 
+                Integrated with Stripe checkout, firebase authentication and Cloudinary service. 
+                And a skateboard builder that allows users to build their custom complete skateboard.
+              </p>
+            </div>
+
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Highlight</h3>
+              <p class="project-details__desc-para">
+                <br/> 
+                <strong>Storefont Overview:</strong><br/> The navigation emphasizes different product categories, so customers can easily find the products. 
+                There are also brand pages that customers can access when they click on the brand logo on the product page.
+                Pagination is added to all product collection pages.
+                Also, there is the account info page, so customers can login to see their order history.
+              </p>
+              <img
+              src="./assets/gif/storefront_overview.gif"
+              alt="Storefont Overview Image"
+              class="project-details__showcase-img"
+            />
+            <br/> 
+            <p class="project-details__desc-para">
+               <br/> 
+                <strong>Custom Skateboard builder:</strong>  <br/> 
+                Customers can select items for each part of the skateboard to build a custom complete. 
+                It hopes to bring the offline skate shop experience to the customer.
+                After completing the selection, the customer can see the rendered picture to get a sense of what to expect. The image rendering is implemented by using Cloudinary Transformation API.
+                If the customer is happy with the result, he or she can seamlessly add all items to the cart by one click.
+              </p>
+              <img
+              src="./assets/gif/skateboard_builder.gif"
+              alt="Custom Skateboard builder Image"
+              class="project-details__showcase-img"
+            />
+            <br/>
+            <p class="project-details__desc-para">
+                <br/> 
+                <strong>Product Page:</strong><br/> Customer can use the picker to select different options, and the price and quantity of the selected variant will change accordingly.
+                Stock quantity is validated before adding to cart, if customer tries to add more quantity than the available stock, a pop-up alert will be shown to indicate the current stock level (the pop up cannot be captured by screen capture)
+                If the customer chooses an out-of-stock variant, the add to cart button will be disabled and show out of stock instead.   
+              </p>
+              <img
+              src="./assets/gif/product_page.gif"
+              alt="Product Page Image"
+              class="project-details__showcase-img"
+            />
+            <br/>
+            <p class="project-details__desc-para">
+                <br/> 
+                <strong>Checkout:</strong><br/> When customers check out the cart items, they need to login or register a customer account.
+                After logged in, the customers can confirm the order summary and proceed to payment.
+                The payment service is integrated with Stripe, customers will be directed to the prebuilt, Stripe checkout page.
+                After customers completed the payment, they will be redirected to store and view the order status.
+              </p>
+              <img
+              src="./assets/gif/checkout.gif"
+              alt="Checkout Image"
+              class="project-details__showcase-img"
+            />
+            <br/>
+            <p class="project-details__desc-para">
+                <br/> 
+                <strong>Admin Panel Overview:</strong><br/> The dashboard in the admin panel gives highlights on today's sales and compares them to yesterday's. 
+                It also includes three charts showing hourly sales of today, daily sales of this month, and monthly sales of this year, so the admin can monitor the trends over time.
+                The admin can view customer info, edit orders, also add and edit brands, and products.
+              </p>
+              <img
+              src="./assets/gif/admin_panel.gif"
+              alt="Admin Panel Image"
+              class="project-details__showcase-img"
+            />
+            <br/>
+            <p class="project-details__desc-para">
+                <br/> 
+                <strong>Create Product:</strong><br/> 
+                The creation form features a drag-and-drop image uploader and the admin can select existing brands and categories from the dropdown. 
+                After the admin input the options and the respective value for the product, input fields are rendered for the admin to input variant information such as price and stock.
+              </p>
+              <img
+              src="./assets/gif/create_product.gif"
+              alt="Product Page Image"
+              class="project-details__showcase-img"
+            />
+            <br/>
+            <p class="project-details__desc-para">
+                <br/> 
+                <strong>Edit Product:</strong><br/> All fields are editable, the UI is same as the create product page.
+              </p>
+              <img
+              src="./assets/gif/edit_product.gif"
+              alt="Edit Product Image"
+              class="project-details__showcase-img"
+            />
+            <br/>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__lower">
+          <a target="_blank" rel="noreferrer" href="https://github.com/emilymansw">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

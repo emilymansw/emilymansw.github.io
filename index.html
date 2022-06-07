@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Emily Man</title>
+    <meta name="description" content="Emily Man Portfolio" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./assets/pdf/EmilyMan-Resume.pdf" class="header__link">
+                Resume
+              </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./assets/pdf/EmilyMan-Resume.pdf" class="header__link">
+                Resume
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hi, My name is Emily Man
+          <span style='font-size:5rem;'>&#128075;</span>
+        </h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            From an experienced marketer to an aspiring full stack developer.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hi! I am an experienced marketer decided to make a career change that is more in line with my passions. 
+                In February, I quitted my job to learn programming.
+              </p>
+              <p class="about__content-details-para">
+                Over the past months, I completed the Java Developer and Java Backend Developer programs on JetBrains Academy. 
+                I acquired knowledge in data structures, OOP concepts, Spring Boot framework, REST API, SQL and database design.
+              </p>
+              <p class="about__content-details-para">
+                With the learn by doing approach, for my coursework, I created several simple console-based applications including Cinema room manager, 
+                Budget manager, Bulls and Cows, Tic-Tac-Toe with AI, also some simple backend servers including an account service app and recipes app.
+              </p>
+              <p class="about__content-details-para">
+                I continued my learning in web development, and dived into frontend development, learning Javascript, Typescript, 
+                React and other technologies. To showcase my skillset, I created two full-stack applications, the Skateshop e-commerce app and Notionhut, a directory app.
+              </p>
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Typescript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Redux</div>
+              <div class="skills__skill">Next.js</div>
+              <div class="skills__skill">Java</div>
+              <div class="skills__skill">Spring Boot</div>
+              <div class="skills__skill">Hibernate</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">REST API</div>
+              <div class="skills__skill">GraphQL</div>
+              <div class="skills__skill">Firebase</div>
+              <div class="skills__skill">GIT</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/skateshop_homepage.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Skateshop</h3>
+              <p class="projects__row-content-desc">
+                Full-Stack E-Commerce Application with Admin Panel built with React, Spring Boot, integrated with Stripe checkout, firebase authentication, and Cloudinary service. And a skateboard builder that allows users to build their custom complete skateboard.              </p>
+              <a
+                href="./skateshop.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Details</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/notionhut_homepage.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Notionhut</h3>
+              <p class="projects__row-content-desc">
+                Curated directory of the best notion tools and templates, built with Next.js, KeystoneJS and PostgreSQL.
+              </p>
+              <a
+                href="./notionhut.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="coursework" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Coursework</span>
+          <span class="heading-sec__sub">
+            Coursework for Java Developer & Java Backend Developer Track at JetBrains Academy
+          </span>
+        </h2>
+        <div class="coursework__content">
+          <div class="coursework__content-main">
+            <h3 class="coursework__content-title">Account Service</h3>
+            <div class="coursework__content-details">
+              <p class="coursework__content-details-para">
+                Simple backend server for managing employees' payroll records using Spring Boot, Spring Security, Hibernate, H2 Database and REST API. 
+              </p>
+              <ul class="coursework__content-details-ul">
+                <li class="coursework__content-details-ul--li">CRUD of employees' payroll and users</li>
+                <li class="coursework__content-details-ul--li">Authorization and authentication</li>
+                <li class="coursework__content-details-ul--li">Log security events, detect attacks, and monitor user activities.</li>
+                <li class="coursework__content-details-ul--li">Implement the HTTPS protocol to fortify the service.</li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="coursework__content-main">
+            <h3 class="coursework__content-title">Tic-Tac-Toe with AI</h3>
+            <div class="coursework__content-details">
+              <p class="coursework__content-details-para">
+                A console-based Tic Tac Toe game that the user can choose to play with another user or AI.
+              </p>
+              <ul class="coursework__content-details-ul">
+                <li class="coursework__content-details-ul--li">Validate user's input.</li>
+                <li class="coursework__content-details-ul--li">3 difficulty levels to choose.</li>
+                <li class="coursework__content-details-ul--li">In hardest mode, the AI's move is implemented by Minimax algorithm</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="home-hero__cta">
+          <a href="https://github.com/emilymansw/JetBrains-Academy-Coursework" class="btn btn--bg btn--theme dynamicBgClr">See More Coursework</a>
+        </div>
+      </div>
+    </section>
+
+  
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__lower">
+          <a target="_blank" rel="noreferrer" href="https://github.com/emilymansw">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
